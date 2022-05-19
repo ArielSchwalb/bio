@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    margin: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: tan;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    padding-left: 200px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding-left: 200px;
+}
+
+
+p {
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: left;
+    padding-left: 330px;
+    line-height: 30px;
+    margin-top: 35px;
+    margin-right: 90px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    float:left;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    color: blue;
+    font-size: 200px;
+    text-decoration: none;
+}
+
+.fa-twitter {
+    color: lightseagreen;
+    text-align: right;
+    text-decoration: none;
+}
+
+.fa-instagram {
+    color: magenta;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icons {
+    font-size: 50px;
+    padding-right: 110px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+body {
+    display: flex;
+}  
+}
